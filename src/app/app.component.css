@@ -1,0 +1,44 @@
+* {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+}
+
+span {
+  min-width: 70px;
+  display: block;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+label + label {
+  margin-top: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+main > section {
+  width: 50%;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="email"] {
+  display: block;
+  width: 100%;
+}
